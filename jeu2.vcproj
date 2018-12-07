@@ -44,7 +44,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;.\external-libraires\SDL-1.2.6\include&quot;;&quot;.\external-libraires\SDL_mixer-1.2.5\include&quot;"
+				AdditionalIncludeDirectories="&quot;.\external-libraires\SDL-1.2.15\include&quot;;&quot;.\external-libraires\SDL_mixer-1.2.12\include&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -76,7 +76,7 @@
 				OutputFile=".\Debug/jeu2.exe"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
-				AdditionalLibraryDirectories="&quot;.\external-libraires\SDL-1.2.6\lib&quot;;&quot;.\external-libraires\SDL_mixer-1.2.5\lib&quot;"
+				AdditionalLibraryDirectories="&quot;.\external-libraires\SDL-1.2.15\lib\x86&quot;;&quot;.\external-libraires\SDL_mixer-1.2.12\lib\x86&quot;"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile=".\Debug/jeu2.pdb"
 				SubSystem="1"
@@ -139,7 +139,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				AdditionalIncludeDirectories="&quot;.\external-libraires\SDL-1.2.6\include&quot;;&quot;.\external-libraires\SDL_mixer-1.2.5\include&quot;"
+				AdditionalIncludeDirectories="&quot;.\external-libraires\SDL-1.2.15\include&quot;;&quot;.\external-libraires\SDL_mixer-1.2.12\include&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				StringPooling="true"
 				RuntimeLibrary="0"
@@ -167,7 +167,7 @@
 				OutputFile=".\Release/jeu2.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
-				AdditionalLibraryDirectories="&quot;.\external-libraires\SDL-1.2.6\lib&quot;;&quot;.\external-libraires\SDL_mixer-1.2.5\lib&quot;"
+				AdditionalLibraryDirectories="&quot;.\external-libraires\SDL-1.2.15\lib\x86&quot;;&quot;.\external-libraires\SDL_mixer-1.2.12\lib\x86&quot;"
 				ProgramDatabaseFile=".\Release/jeu2.pdb"
 				SubSystem="1"
 				RandomizedBaseAddress="1"
@@ -1095,6 +1095,178 @@
 			</File>
 			<File
 				RelativePath=".\external-libraires\SDL-1.2.6\include\SDL_video.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="SDL-1.2.15"
+			>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\begin_code.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\close_code.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_active.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_audio.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_byteorder.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_cdrom.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config_dreamcast.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config_macos.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config_macosx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config_minimal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config_nds.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config_os2.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config_symbian.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_config_win32.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_copying.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_cpuinfo.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_endian.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_error.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_events.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_getenv.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_joystick.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_keyboard.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_keysym.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_loadso.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_main.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL_mixer-1.2.12\include\SDL_mixer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_mouse.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_mutex.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_name.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_opengl.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_platform.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_quit.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_rwops.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_stdinc.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_syswm.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_thread.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_timer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_types.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_version.h"
+				>
+			</File>
+			<File
+				RelativePath=".\external-libraires\SDL-1.2.15\include\SDL_video.h"
 				>
 			</File>
 		</Filter>
