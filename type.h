@@ -16,11 +16,11 @@
 #include <string.h>
 #include <stdarg.h>
 #include <time.h>
-#include "SDL/SDL.h"
-#include "SDL/SDL_thread.h"
-#include "SDL/SDL_mutex.h"
-#include "SDL/SDL_endian.h"
-#include "SDL/SDL_mixer.h"
+#include "SDL.h"
+#include "SDL_thread.h"
+#include "SDL_mutex.h"
+#include "SDL_endian.h"
+#include "SDL_mixer.h"
 
 
 #define DATA_PATH "./data/"
